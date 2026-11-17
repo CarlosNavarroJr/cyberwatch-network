@@ -1,16 +1,45 @@
-# React + Vite
+# CyberWatchNetwork
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cybersecurity news and media platform built with React, Node.js, and Express.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+CyberWatchNetwork aggregates cybersecurity news from trusted RSS sources, organizes articles by category, and provides an interface for discovering security threats and industry developments.
 
-## React Compiler
+## Planned MVP Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive cybersecurity news homepage
+- Automated RSS news aggregation
+- Featured and latest news sections
+- Category filtering and article search
+- Video and vlog section
+- Links to original news sources
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend:** React, Vite, JavaScript, CSS
+
+**Backend:** Node.js, Express
+
+**Version Control:** Git and GitHub
+
+**Deployment:** Hostinger (planned)
+
+## Project Structure
+
+- `client/` — React frontend
+- `server/` — Backend API (planned)
+
+## Current Status
+
+Phase 1 — Initial project setup and architecture.
+
+## Roadmap
+
+1. Project setup
+2. Frontend design
+3. RSS backend integration
+4. News discovery and filtering
+5. Testing and security
+6. Production deployment
+7. Future AI and publishing features
