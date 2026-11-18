@@ -1,6 +1,6 @@
 # CyberWatchNetwork
 
-A cybersecurity news and media platform built with React, Node.js, and Express.
+A cybersecurity news and media platform built with React, Node.js, and Express. This website is for displaying media about cybersecurity news and keep viewers up to date of breaches and cyber attacks.
 
 ## Project Overview
 
