@@ -1,0 +1,31 @@
+:root {
+  /* Background colors */
+  --color-bg: #080f19;
+  --color-surface: #101c2b;
+  --color-surface-hover: #18283a;
+
+  /* Brand colors */
+  --color-primary: #22d3ee;
+  --color-primary-hover: #67e8f9;
+
+  /* Text colors */
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
+
+  /* Borders */
+  --color-borders: #94a3b8;
+
+  /* Typography */
+  --font-main: Arial, Helvetica, sans-serif;
+
+  /* Layout */
+  --container-width: 1200px;
+  --section-spacing: 4rem;
+
+  /* Reusable styles */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+
+  --transition-fast: 0.2s ease;
+}
