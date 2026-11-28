@@ -1,4 +1,8 @@
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
+import { featuredArticle } from "./data/featuredArticle";
+
 import "./App.css";
 
 const upcomingSections = [
@@ -30,16 +34,7 @@ function App() {
       <Navbar />
 
       <main>
-        <section id="home" className="section">
-          <div className="container">
-            <h1>CyberWatch Network</h1>
-
-            <p className="section-description">
-              Your source for Cybersecurity news, threat intelligence, and
-              security insights.
-            </p>
-          </div>
-        </section>
+        <Hero article={featuredArticle} />
 
         {upcomingSections.map((section) => (
           <section
